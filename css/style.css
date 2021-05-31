@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #292122;
+}
+header{
+	width:auto!important;
+	height: auto;
+	margin: 0 auto;
+}
+
+.logo{
+	margin-bottom: 250px;
+	margin-top: 30px;
+}
+.proximamente{
+	padding-left: 80px;
+}
+.fondo{
+	position: fixed;
+	background-image: url("../images/cabecera-1.jpg");
+	height: 1080px;
+}
+.btn-contactos:link, .btn-contactos:visited{
+	display: block;
+	margin-top: 20px;
+	margin-left: 130px;
+	width: 276px;
+	height: 48px;
+	background-image: url("../images/btn-contacto.png");
+	background-position: top left;
+}
+.btn-contactos:hover {
+	background-position: 0 48px;
+}
+.row{
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+
+#redes{
+	clear: both;
+	display:block;
+	list-style: none;
+	width:60px;
+	top: 60px;
+	float: right;
+}
+#redes li {
+	display:block!important;
+	float: left;
+	width: 30px!important;
+	height: 30px!important;
+	margin-bottom: 10px;
+}
+#redes li a{
+	display:inline-block;
+	width:30px;
+	height: 30px;
+}
+
+#redes li a img, #correo img{
+	display:block;
+	width:30px!important;
+	height: 30px!important;
+}
+
+
+@media (max-width:1200px){
+	.logo{
+		margin-bottom: 120px;
+	}
+	.proximamente img{
+		display: block;
+		width: 90%;
+		height: auto;
+	}
+
+	.proximamente{
+		margin-bottom: 50px;
+	}
+	#redes{
+		width:100%;
+	}
+	#redes li{
+		margin-right:30px;
+	}
+
+
+}
